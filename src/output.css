@@ -193,6 +193,12 @@
     border-style: var(--tw-border-style);
     border-width: 1px;
   }
+  .px-10 {
+    padding-inline: calc(var(--spacing) * 10);
+  }
+  .py-5 {
+    padding-block: calc(var(--spacing) * 5);
+  }
   .underline {
     text-decoration-line: underline;
   }
